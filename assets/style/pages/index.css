@@ -1,0 +1,232 @@
+.title-center {
+  color: #650300;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px; }
+  @media screen and (max-width: 414px) {
+    .title-center {
+      font-size: 24px;
+      margin-bottom: 24px; } }
+
+.section-pdy {
+  padding: 80px 0; }
+  @media screen and (max-width: 414px) {
+    .section-pdy {
+      padding: 40px 0; } }
+
+.banner {
+  background-image: url(/assets/images/home-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #650300; }
+  @media screen and (max-width: 991px) {
+    .banner {
+      background-image: url(/assets/images/home-header-sm.png); } }
+  .banner section {
+    padding-top: 296px;
+    padding-bottom: 296px;
+    text-align: right; }
+    @media screen and (max-width: 414px) {
+      .banner section {
+        padding-top: 144px;
+        padding-bottom: 144px; } }
+  .banner p {
+    font-size: 36px; }
+    @media screen and (max-width: 414px) {
+      .banner p {
+        font-size: 16px; } }
+  .banner h2 {
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 4px; }
+    @media screen and (max-width: 414px) {
+      .banner h2 {
+        font-size: 24px;
+        padding-bottom: 8px; } }
+  .banner button {
+    background-color: #aa0601;
+    color: #fff;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 6px 12px;
+    border: none; }
+
+.works {
+  background-color: #fbf2f2; }
+  .works h3 {
+    margin-bottom: 24px; }
+    @media screen and (max-width: 414px) {
+      .works h3 {
+        font-size: 24px; } }
+  .works h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #650300;
+    margin-bottom: 8px; }
+  .works li {
+    width: 25%; }
+  .works p {
+    text-align: left; }
+  .works img {
+    max-width: 100px;
+    margin-bottom: 16px; }
+  @media screen and (max-width: 991px) {
+    .works ul {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+    .works li {
+      width: 48%; } }
+  @media screen and (max-width: 414px) {
+    .works li {
+      width: 100%; } }
+
+.glasses img {
+  padding-bottom: 8px; }
+
+.glasses li {
+  width: 33%; }
+
+.glasses p {
+  color: #aa0601;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: italic; }
+
+@media screen and (max-width: 991px) {
+  .glasses ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .glasses li {
+    width: 50%; } }
+
+@media screen and (max-width: 414px) {
+  .glasses li {
+    width: 100%; } }
+
+.desgin {
+  background-image: url(/assets/images/index-bg.png); }
+  .desgin h3 {
+    color: white; }
+  .desgin ul {
+    gap: 0; }
+  .desgin li {
+    border-left: 0.5px solid gray; }
+  .desgin p {
+    background-color: white;
+    padding: 8px 0;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    color: #650300; }
+  @media screen and (max-width: 991px) {
+    .desgin ul {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      gap: 24px; }
+    .desgin li {
+      width: 90%; } }
+  @media screen and (max-width: 414px) {
+    .desgin li {
+      width: 89.9%; } }
+
+.recommend li {
+  -webkit-box-shadow: 0px 2px 6px #00000029;
+          box-shadow: 0px 2px 6px #00000029;
+  border-radius: 4px; }
+
+.recommend section {
+  padding: 16px; }
+
+.recommend h5 {
+  text-align: left;
+  font-weight: 500;
+  padding-bottom: 8px; }
+
+.recommend p {
+  text-align: left;
+  padding-bottom: 24px; }
+
+.recommend p:last-child {
+  padding-top: 48px;
+  font-size: 14px;
+  color: #707070;
+  padding-bottom: 0; }
+
+@media screen and (max-width: 991px) {
+  .recommend ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .recommend li {
+    width: 48%; } }
+
+@media screen and (max-width: 414px) {
+  .recommend li {
+    width: 100%; } }
+
+.contact {
+  background-color: #fbf2f2; }
+  .contact form {
+    max-width: 636px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+    .contact form .fz-20 {
+      font-size: 20px; }
+  .contact .mb-24 {
+    margin-bottom: 24px; }
+  .contact label {
+    margin-bottom: 8px; }
+  .contact input {
+    margin-bottom: 16px; }
+  .contact input,
+  .contact textarea {
+    background-color: #fbf2f2;
+    padding: 5px 11px;
+    border: 1px solid black; }
+  .contact textarea {
+    resize: none;
+    min-height: 124px;
+    margin-bottom: 16px; }
+  .contact div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 48px; }
+  .contact button {
+    background-color: #fbf2f2;
+    min-width: 24px;
+    min-height: 24px;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0 4px 0 0; }
+  .contact input[type="submit"] {
+    width: 46%;
+    margin: 0 auto;
+    background-color: #aa0601;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0;
+    border: none; }
+  @media screen and (max-width: 414px) {
+    .contact form .fz-20 {
+      font-size: 16px; }
+    .contact input,
+    .contact textarea {
+      font-size: 14px; }
+    .contact div {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    .contact input[type="submit"] {
+      width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -21,12 +21,12 @@
 }
 
 .banner {
-  background-image: url(./assets/images/home-header.png);
+  background-image: url(../images/home-header.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: $tertiary-color;
   @media screen and(max-width:991px) {
-    background-image: url(./assets/images/home-header-sm.png);
+    background-image: url(../images/home-header-sm.png);
   }
 
   section {
@@ -129,7 +129,7 @@
 }
 
 .desgin {
-  background-image: url(./assets/images/index-bg.png);
+  background-image: url(../images/index-bg.png);
   h3 {
     color: white;
   }

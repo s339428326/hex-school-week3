@@ -16,13 +16,13 @@
       padding: 40px 0; } }
 
 .banner {
-  background-image: url(./assets/images/home-header.png);
+  background-image: url(../images/home-header.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #650300; }
   @media screen and (max-width: 991px) {
     .banner {
-      background-image: url(./assets/images/home-header-sm.png); } }
+      background-image: url(../images/home-header-sm.png); } }
   .banner section {
     padding-top: 296px;
     padding-bottom: 296px;
@@ -105,7 +105,7 @@
     width: 100%; } }
 
 .desgin {
-  background-image: url(./assets/images/index-bg.png); }
+  background-image: url(../images/index-bg.png); }
   .desgin h3 {
     color: white; }
   .desgin ul {

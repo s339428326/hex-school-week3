@@ -71,6 +71,9 @@ footer {
 .footer-icon {
   display: inline;
   margin: 3px 16px 3px 0;
+  @media screen and(max-width:414px) {
+    margin: 3px 8px 3px 0;
+  }
   .material-symbols-outlined.size-36.phone {
     font-variation-settings: "OPSZ" 36;
     font-size: 36px;
@@ -127,12 +130,13 @@ footer {
     }
   }
   @media screen and(max-width:414px) {
+    flex-wrap: nowrap;
     img {
       width: 24px;
     }
   }
 
-  li {
+  .list-1 li {
     margin-right: 48px;
   }
   li:last-child {

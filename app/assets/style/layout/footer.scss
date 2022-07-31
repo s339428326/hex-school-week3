@@ -42,6 +42,12 @@ footer {
   }
 }
 
+@media screen and(max-width:414px) {
+  .copyright {
+    font-size: 16px;
+  }
+}
+
 @media screen and(max-width:991px) {
   .copyright {
     section {
@@ -147,6 +153,27 @@ footer {
   }
   .social-icon-pd li:last-child {
     margin-right: 0;
+  }
+}
+
+.copyright {
+  ul {
+    gap: 0 48px;
+  }
+  @media screen and(max-width:414px) {
+    section {
+      flex-direction: column;
+      gap: 8px;
+    }
+    ul {
+      display: flex;
+      li {
+        margin-bottom: 8px;
+      }
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 

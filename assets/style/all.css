@@ -260,6 +260,10 @@ footer {
     padding-top: 32px;
     padding-bottom: 32px; }
 
+@media screen and (max-width: 414px) {
+  .copyright {
+    font-size: 16px; } }
+
 @media screen and (max-width: 991px) {
   .copyright section {
     padding-top: 32px;
@@ -341,6 +345,25 @@ footer {
     margin-right: 32px; }
   .footer-flex .social-icon-pd li:last-child {
     margin-right: 0; }
+
+.copyright ul {
+  gap: 0 48px; }
+
+@media screen and (max-width: 414px) {
+  .copyright section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 8px; }
+  .copyright ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .copyright ul li {
+      margin-bottom: 8px; }
+    .copyright ul li:last-child {
+      margin-bottom: 0; } }
 
 footer section .info {
   -webkit-box-orient: vertical;

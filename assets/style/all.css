@@ -280,6 +280,9 @@ footer {
 .footer-icon {
   display: inline;
   margin: 3px 16px 3px 0; }
+  @media screen and (max-width: 414px) {
+    .footer-icon {
+      margin: 3px 8px 3px 0; } }
   .footer-icon .material-symbols-outlined.size-36.phone {
     font-variation-settings: "OPSZ" 36;
     font-size: 36px;
@@ -325,9 +328,12 @@ footer {
     .footer-flex img {
       width: 40px; } }
   @media screen and (max-width: 414px) {
-    .footer-flex img {
-      width: 24px; } }
-  .footer-flex li {
+    .footer-flex {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; }
+      .footer-flex img {
+        width: 24px; } }
+  .footer-flex .list-1 li {
     margin-right: 48px; }
   .footer-flex li:last-child {
     margin-right: 0; }
